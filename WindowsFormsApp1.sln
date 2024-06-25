@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33801.447
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp1", "WindowsFormsApp1\WindowsFormsApp1.csproj", "{8DC2D48D-220D-461C-8E6C-95B078F38BDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThermoNetMessageBoxEx", "ThermoNetMessageBoxEx\ThermoNetMessageBoxEx.csproj", "{9F6DCE89-B853-4388-A211-C0B4CEF06A46}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8DC2D48D-220D-461C-8E6C-95B078F38BDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DC2D48D-220D-461C-8E6C-95B078F38BDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DC2D48D-220D-461C-8E6C-95B078F38BDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DC2D48D-220D-461C-8E6C-95B078F38BDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F6DCE89-B853-4388-A211-C0B4CEF06A46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F6DCE89-B853-4388-A211-C0B4CEF06A46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F6DCE89-B853-4388-A211-C0B4CEF06A46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F6DCE89-B853-4388-A211-C0B4CEF06A46}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2BE00193-EF3C-4115-8331-67AF2C3CB3D9}
+	EndGlobalSection
+EndGlobal
