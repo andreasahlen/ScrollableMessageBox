@@ -81,7 +81,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ThermoNetMessageBoxEx\ScrollableMessageBoxEx.csproj">
+    <ProjectReference Include="..\ScrollableMessageBoxEx\ScrollableMessageBoxEx.csproj">
       <Project>{9f6dce89-b853-4388-a211-c0b4cef06a46}</Project>
       <Name>ScrollableMessageBoxEx</Name>
     </ProjectReference>

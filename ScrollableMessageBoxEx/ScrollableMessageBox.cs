@@ -224,12 +224,13 @@ namespace WindowsFormsApp1
             this._TextBox.Left = 64;
             this._TextBox.Width = this.Width - 64 - 32;
             this._TextBox.Height = this.Height - 64 - 32;
-            this._TextBox.BackColor = Color.Azure;
+            this._TextBox.BackColor = Color.White;
             this._TextBox.Multiline = true;
             this._TextBox.ScrollBars = ScrollBars.Both;
             this._TextBox.Text = content;
             this._TextBox.ReadOnly = true;
             this._TextBox.HideSelection = true;
+            this._TextBox.BorderStyle = BorderStyle.None;
             this._TextBox.SelectionStart = 0;
             this._TextBox.SelectionLength = 0;
             this._TextBox.KeyUp += ScrollableMessageBox_KeyUp;
@@ -237,7 +238,7 @@ namespace WindowsFormsApp1
             this.Update();
         }
 
-        private Button AddButton(ScrollableMsgBoxButtonType button, int height = 32, int width = 96)
+        private Button AddButton(ScrollableMsgBoxButtonType button, int height = 24, int width = 96)
         {
             string locale = this._Localizations.SingleOrDefault(v => v.Key == button).Value;
             Button result = new Button();

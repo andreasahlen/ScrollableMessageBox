@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.33801.447
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp1", "WindowsFormsApp1\WindowsFormsApp1.csproj", "{8DC2D48D-220D-461C-8E6C-95B078F38BDC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScrollableMessageBoxEx", "ThermoNetMessageBoxEx\ScrollableMessageBoxEx.csproj", "{9F6DCE89-B853-4388-A211-C0B4CEF06A46}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScrollableMessageBoxEx", "ScrollableMessageBoxEx\ScrollableMessageBoxEx.csproj", "{9F6DCE89-B853-4388-A211-C0B4CEF06A46}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
